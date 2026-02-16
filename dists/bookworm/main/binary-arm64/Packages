@@ -1,0 +1,98 @@
+Package: sparrow-hawk-arm-trusted-firmware
+Version: 2.14.0-1
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 140
+Homepage: https://github.com/ARM-software/arm-trusted-firmware
+Priority: optional
+Section: misc
+Filename: pool/main/s/sparrow-hawk-arm-trusted-firmware/sparrow-hawk-arm-trusted-firmware_2.14.0-1_all.deb
+Size: 20516
+SHA256: 4cdf14100df2ba9ff410be5cc10947711043ae6e228521ddcb836e4d72e4465f
+SHA1: b52a7db7820b63952fb956d4664a0c444c922199
+MD5sum: 6e233524e9872808d52c4781ffb1328c
+Description: ARM Trusted Firmware (TF-A) BL31 for Sparrow Hawk
+
+Package: sparrow-hawk-bsp
+Version: 1.0.0-5
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 7
+Depends: sparrow-hawk-arm-trusted-firmware, sparrow-hawk-kernel, sparrow-hawk-mkfit
+Homepage: https://github.com/ARM-software/arm-trusted-firmware
+Priority: optional
+Section: misc
+Filename: pool/main/s/sparrow-hawk-bsp/sparrow-hawk-bsp_1.0.0-5_all.deb
+Size: 982
+SHA256: caf0ef4076f5bc74f34937b7f70d885862547e7e24691181e030b62f54ce8dfa
+SHA1: 64535c3b18b2dd472fc0f53f9e648b7dff5ecb0d
+MD5sum: 26ce8253fe647de75ef7855201b59a22
+Description: Meta package for Sparrow Hawk
+
+Package: sparrow-hawk-kernel-6.12
+Version: 6.12.66-7
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 49152
+Conflicts: sparrow-hawk-kernel-6.18
+Replaces: sparrow-hawk-kernel-6.18
+Provides: sparrow-hawk-kernel
+Homepage: https://github.com/ARM-software/arm-trusted-firmware
+Priority: optional
+Section: misc
+Filename: pool/main/s/sparrow-hawk-kernel-6.12/sparrow-hawk-kernel-6.12_6.12.66-7_all.deb
+Size: 16842880
+SHA256: d494de18e235f81d1a0a349a9a5aad21434b8dd3b52a5fbca8afa2117767c753
+SHA1: 327f4000b15a69a831ed5ec72c1443995f2a8761
+MD5sum: d3f67b384481cb64d173e268dd0a5f09
+Description: Linux kernel 6.12 for Sparrow Hawk
+
+Package: sparrow-hawk-kernel-6.18
+Version: 6.18.6-4
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 50325
+Conflicts: sparrow-hawk-kernel-6.12
+Replaces: sparrow-hawk-kernel-6.12
+Provides: sparrow-hawk-kernel
+Homepage: https://github.com/ARM-software/arm-trusted-firmware
+Priority: optional
+Section: misc
+Filename: pool/main/s/sparrow-hawk-kernel-6.18/sparrow-hawk-kernel-6.18_6.18.6-4_all.deb
+Size: 17117232
+SHA256: 384568a2c6c26dcd4b30d75c405333b002d1ed409f9469477ba307978c0537f2
+SHA1: 1c7c0184cccf929b18662d871384b25af7d2d60b
+MD5sum: 6536bc991d87b460711f312c1020f910
+Description: Linux kernel 6.18 for Sparrow Hawk
+
+Package: sparrow-hawk-mkfit
+Version: 1.0.0-17
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 21
+Depends: initramfs-tools, busybox-static, binutils, u-boot-tools, device-tree-compiler, sparrow-hawk-kernel, sparrow-hawk-arm-trusted-firmware, sparrow-hawk-pcie-fw
+Homepage: https://github.com/ARM-software/arm-trusted-firmware
+Priority: optional
+Section: misc
+Filename: pool/main/s/sparrow-hawk-mkfit/sparrow-hawk-mkfit_1.0.0-17_all.deb
+Size: 3740
+SHA256: ff727c467b3c500bd0d04bc2319f1f7b5fa6661dd97052ff048f0d6a036751c8
+SHA1: f21a471a19ba35e960eb3bb8d240597569ed4ce1
+MD5sum: b6b7dedf5a58250e06efb6584fea26bf
+Description: Postinst script for generating fitImage automatically
+
+Package: sparrow-hawk-pcie-fw
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 45
+Homepage: https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
+Priority: optional
+Section: misc
+Filename: pool/main/s/sparrow-hawk-pcie-fw/sparrow-hawk-pcie-fw_1.0.0-1_all.deb
+Size: 13836
+SHA256: 5032b0c1756177cf2ffbfac9345035af4bea02b022dc264f0fb2fd9d29e4fa46
+SHA1: f4d570e5c3e04324b1e5526a7b13bf293ca204ed
+MD5sum: 2d0600edfd651ae79972c951c96c252f
+Description: PCIe Controller firmware for Sparrow Hawk
+
