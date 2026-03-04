@@ -81,19 +81,19 @@ MD5sum: 5dda89eb5477a36d14e01fa2b3c499a8
 Description: cmem driver for Sparrow Hawk kernel
 
 Package: sparrow-hawk-mkfit
-Version: 1.0.0-17
+Version: 1.0.0-18
 Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
-Installed-Size: 21
+Installed-Size: 22
 Depends: initramfs-tools, busybox-static, binutils, u-boot-tools, device-tree-compiler, sparrow-hawk-kernel, sparrow-hawk-arm-trusted-firmware, sparrow-hawk-pcie-fw
 Homepage: https://github.com/ARM-software/arm-trusted-firmware
 Priority: optional
 Section: misc
-Filename: pool/main/s/sparrow-hawk-mkfit/sparrow-hawk-mkfit_1.0.0-17_all.deb
-Size: 3740
-SHA256: ff727c467b3c500bd0d04bc2319f1f7b5fa6661dd97052ff048f0d6a036751c8
-SHA1: f21a471a19ba35e960eb3bb8d240597569ed4ce1
-MD5sum: b6b7dedf5a58250e06efb6584fea26bf
+Filename: pool/main/s/sparrow-hawk-mkfit/sparrow-hawk-mkfit_1.0.0-18_all.deb
+Size: 3748
+SHA256: 5e654d0e3b717c00db37a3ad9af57bf92ebd81386363dc1aefda022c13e51674
+SHA1: 5cd1b6a488c7e0193c4e61a3a3fa9523a2080a7c
+MD5sum: f5b705e7b705bcde3e681b169839019c
 Description: Postinst script for generating fitImage automatically
 
 Package: sparrow-hawk-pcie-fw
