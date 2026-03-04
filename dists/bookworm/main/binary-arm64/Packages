@@ -48,22 +48,37 @@ MD5sum: d3f67b384481cb64d173e268dd0a5f09
 Description: Linux kernel 6.12 for Sparrow Hawk
 
 Package: sparrow-hawk-kernel-6.18
-Version: 6.18.6-4
+Version: 6.18.6-5
 Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
-Installed-Size: 50325
+Installed-Size: 50678
 Conflicts: sparrow-hawk-kernel-6.12
 Replaces: sparrow-hawk-kernel-6.12
 Provides: sparrow-hawk-kernel
 Homepage: https://github.com/ARM-software/arm-trusted-firmware
 Priority: optional
 Section: misc
-Filename: pool/main/s/sparrow-hawk-kernel-6.18/sparrow-hawk-kernel-6.18_6.18.6-4_all.deb
-Size: 17117232
-SHA256: 384568a2c6c26dcd4b30d75c405333b002d1ed409f9469477ba307978c0537f2
-SHA1: 1c7c0184cccf929b18662d871384b25af7d2d60b
-MD5sum: 6536bc991d87b460711f312c1020f910
+Filename: pool/main/s/sparrow-hawk-kernel-6.18/sparrow-hawk-kernel-6.18_6.18.6-5_all.deb
+Size: 14941104
+SHA256: 9d5e427011c6cbe1bcaa158e253c87bd7a83812fdfe47e6cfc22b1be9d2992a0
+SHA1: 6aed270f66b8ec8f58f54c1a5fa82cecc5e8bd2b
+MD5sum: cb3fa5d5a78f9e3614c3f8d84b67c55f
 Description: Linux kernel 6.18 for Sparrow Hawk
+
+Package: sparrow-hawk-kernel-module-cmemdrv
+Version: 6.18.6-5
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 30
+Homepage: https://github.com/renesas-rcar/cmem
+Priority: optional
+Section: misc
+Filename: pool/main/s/sparrow-hawk-kernel-module-cmemdrv/sparrow-hawk-kernel-module-cmemdrv_6.18.6-5_all.deb
+Size: 6340
+SHA256: 1fbbfb4e02706ad9873578e48d015957e1227d9158e63f4886f747a5e1dbc92e
+SHA1: 0e23a98c777f7f72139951f200f43d83bad542a5
+MD5sum: 5dda89eb5477a36d14e01fa2b3c499a8
+Description: cmem driver for Sparrow Hawk kernel
 
 Package: sparrow-hawk-mkfit
 Version: 1.0.0-17
