@@ -111,3 +111,18 @@ SHA1: f4d570e5c3e04324b1e5526a7b13bf293ca204ed
 MD5sum: 2d0600edfd651ae79972c951c96c252f
 Description: PCIe Controller firmware for Sparrow Hawk
 
+Package: sparrow-hawk-udev
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 15
+Homepage: https://github.com/rcar-community/meta-sparrow-hawk
+Priority: optional
+Section: misc
+Filename: pool/main/s/sparrow-hawk-udev/sparrow-hawk-udev_1.0.0-1_all.deb
+Size: 1408
+SHA256: 4ee0a0310bf28b687a39127f3724046ad26f4e19fcb179c7dae1d69d81e0d77e
+SHA1: 205f475bceba434564f6b02b8ca133b435d80356
+MD5sum: 5acd8ab7e1989ff8a7020ceba9a4c707
+Description: udev rules
+
