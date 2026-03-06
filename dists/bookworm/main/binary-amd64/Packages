@@ -51,7 +51,7 @@ Package: sparrow-hawk-kernel-6.18
 Version: 6.18.6-5
 Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
-Installed-Size: 51940
+Installed-Size: 52322
 Conflicts: sparrow-hawk-kernel-6.12
 Replaces: sparrow-hawk-kernel-6.12
 Provides: sparrow-hawk-kernel
@@ -59,10 +59,10 @@ Homepage: https://github.com/ARM-software/arm-trusted-firmware
 Priority: optional
 Section: misc
 Filename: pool/main/s/sparrow-hawk-kernel-6.18/sparrow-hawk-kernel-6.18_6.18.6-5_all.deb
-Size: 16348224
-SHA256: 130e739d0392b24a893d0b61573ac33b033f1d48974370b4ee9bc41f7a34914f
-SHA1: b56bc9c7b35fc5cea420d601c1c1da1e0f077bc9
-MD5sum: 5b883e3f9f2dba114df2f68c2eea7813
+Size: 16416100
+SHA256: 82703e86ace9562bbbea780c60070aa8b2ea0ab75fe2a8f494978f058a95054c
+SHA1: 510229c7d921c6fce096d5ee7c94ad9d7e3b503c
+MD5sum: 6ce5d41223cc8bac1e69210053f78823
 Description: Linux kernel 6.18 for Sparrow Hawk
 
 Package: sparrow-hawk-kernel-module-cmemdrv
