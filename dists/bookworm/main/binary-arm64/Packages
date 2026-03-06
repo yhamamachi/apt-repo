@@ -80,6 +80,22 @@ SHA1: bcd534f7abca7018c73fe07683a2538ae7f69e82
 MD5sum: 2919168d0ba182699c9752ecfcc3e116
 Description: cmem driver for Sparrow Hawk kernel
 
+Package: sparrow-hawk-libcamera
+Version: 0.6.0-1
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 106747
+Depends: libdw1, libunwind8
+Homepage: https://git.libcamera.org/libcamera/libcamera.git
+Priority: optional
+Section: misc
+Filename: pool/main/s/sparrow-hawk-libcamera/sparrow-hawk-libcamera_0.6.0-1_all.deb
+Size: 23983708
+SHA256: 97ee002b7e2d4fd9509985722b585cff2a4abe859cb8b0f659eb3fc172c2d2db
+SHA1: 14b57740fa15fcede315006d06048847dda9a59f
+MD5sum: 36c4c7bc1ff9ed9a2e4a069d916f2bee
+Description: libcamera for Sparrow Hawk kernel
+
 Package: sparrow-hawk-mkfit
 Version: 1.0.0-18
 Architecture: all
