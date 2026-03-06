@@ -142,6 +142,21 @@ SHA1: f4d570e5c3e04324b1e5526a7b13bf293ca204ed
 MD5sum: 2d0600edfd651ae79972c951c96c252f
 Description: PCIe Controller firmware for Sparrow Hawk
 
+Package: sparrow-hawk-u-boot
+Version: 2026.01-1
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 2188
+Homepage: https://github.com/ARM-software/arm-trusted-firmware
+Priority: optional
+Section: misc
+Filename: pool/main/s/sparrow-hawk-u-boot/sparrow-hawk-u-boot_2026.01-1_all.deb
+Size: 332852
+SHA256: a1f9f2a686d80280b47455cdf1b6c6dfeec8a0dcdb53a2c5e6751bfd91d2a36d
+SHA1: 04800b68b3feb381feb30e94fb9afb765afb9bf9
+MD5sum: 2eb44bdd3c1a5aad580a9c4f9d6d0d79
+Description: U-Boot for Sparrow Hawk
+
 Package: sparrow-hawk-udev
 Version: 1.0.0-1
 Architecture: all
