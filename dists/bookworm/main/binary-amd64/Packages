@@ -18,15 +18,15 @@ Version: 1.0.0-5
 Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
 Installed-Size: 7
-Depends: sparrow-hawk-arm-trusted-firmware, sparrow-hawk-kernel, sparrow-hawk-mkfit
+Depends: sparrow-hawk-arm-trusted-firmware, sparrow-hawk-kernel, sparrow-hawk-kernel-module-cmemdrv, sparrow-hawk-libcamera, sparrow-hawk-misc-config, sparrow-hawk-mkfit, sparrow-hawk-pcie-fw, sparrow-hawk-udev, sparrow-hawk-u-boot
 Homepage: https://github.com/ARM-software/arm-trusted-firmware
 Priority: optional
 Section: misc
 Filename: pool/main/s/sparrow-hawk-bsp/sparrow-hawk-bsp_1.0.0-5_all.deb
-Size: 982
-SHA256: caf0ef4076f5bc74f34937b7f70d885862547e7e24691181e030b62f54ce8dfa
-SHA1: 64535c3b18b2dd472fc0f53f9e648b7dff5ecb0d
-MD5sum: 26ce8253fe647de75ef7855201b59a22
+Size: 1028
+SHA256: fd30aaf0fc52feb533f6aa4c731c3995982208381f886f8b4f66dfe3077d8c90
+SHA1: e8c00819b03be70c2576424e2aec60134fefe69f
+MD5sum: 7efcc3a22d55091292d01a7aeb38bb12
 Description: Meta package for Sparrow Hawk
 
 Package: sparrow-hawk-kernel-6.12
