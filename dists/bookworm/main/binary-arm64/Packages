@@ -85,15 +85,15 @@ Version: 0.6.0-1
 Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
 Installed-Size: 106747
-Depends: libdw1, libunwind8
+Depends: libdw1, libunwind8, libevent-dev
 Homepage: https://git.libcamera.org/libcamera/libcamera.git
 Priority: optional
 Section: misc
 Filename: pool/main/s/sparrow-hawk-libcamera/sparrow-hawk-libcamera_0.6.0-1_all.deb
-Size: 23983708
-SHA256: 97ee002b7e2d4fd9509985722b585cff2a4abe859cb8b0f659eb3fc172c2d2db
-SHA1: 14b57740fa15fcede315006d06048847dda9a59f
-MD5sum: 36c4c7bc1ff9ed9a2e4a069d916f2bee
+Size: 23984024
+SHA256: 4f2eb8957d17218d99ff536704367b4cbbb44a093677adb3a45295d993fb34f7
+SHA1: 12bb245ce03005cf5d8e5360ac40e720383234f2
+MD5sum: e5502198773792bd3396636c649ce85d
 Description: libcamera for Sparrow Hawk kernel
 
 Package: sparrow-hawk-misc-config
