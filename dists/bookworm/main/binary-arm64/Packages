@@ -74,10 +74,10 @@ Homepage: https://github.com/renesas-rcar/cmem
 Priority: optional
 Section: misc
 Filename: pool/main/s/sparrow-hawk-kernel-module-cmemdrv/sparrow-hawk-kernel-module-cmemdrv_6.18.6-5_all.deb
-Size: 6256
-SHA256: f1b7cba5f4ed429abe0327c62343a4a4202e36ab3404488199bb06dcc4a5e3b2
-SHA1: bcd534f7abca7018c73fe07683a2538ae7f69e82
-MD5sum: 2919168d0ba182699c9752ecfcc3e116
+Size: 6260
+SHA256: 52805995e95ae0634f5aeaa4670403accf6a28b25bf0d7ff63625e8f52ded8f4
+SHA1: a93a9c22b36a38290426617aa778a9ae15dfbbe9
+MD5sum: a5f9fa85b4603c76f6fed503e7400fbd
 Description: cmem driver for Sparrow Hawk kernel
 
 Package: sparrow-hawk-libcamera
