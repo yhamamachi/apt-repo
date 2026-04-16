@@ -18,15 +18,15 @@ Version: 1.0.0-5
 Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
 Installed-Size: 7
-Depends: sparrow-hawk-arm-trusted-firmware, sparrow-hawk-kernel, sparrow-hawk-kernel-module-cmemdrv, sparrow-hawk-libcamera, sparrow-hawk-misc-config, sparrow-hawk-mkfit, sparrow-hawk-pcie-fw, sparrow-hawk-udev, sparrow-hawk-u-boot
+Depends: sparrow-hawk-arm-trusted-firmware, sparrow-hawk-kernel, sparrow-hawk-kernel-module-cmemdrv, sparrow-hawk-kernel-module-pvrsrvkm, sparrow-hawk-libcamera, sparrow-hawk-misc-config, sparrow-hawk-mkfit, sparrow-hawk-pcie-fw, sparrow-hawk-udev, sparrow-hawk-u-boot
 Homepage: https://github.com/ARM-software/arm-trusted-firmware
 Priority: optional
 Section: misc
 Filename: pool/main/s/sparrow-hawk-bsp/sparrow-hawk-bsp_1.0.0-5_all.deb
-Size: 1028
-SHA256: fd30aaf0fc52feb533f6aa4c731c3995982208381f886f8b4f66dfe3077d8c90
-SHA1: e8c00819b03be70c2576424e2aec60134fefe69f
-MD5sum: 7efcc3a22d55091292d01a7aeb38bb12
+Size: 1046
+SHA256: 368cefc74d1b6f60baed4a1bf55e043549052327ec3a8cdb237608705b27b4a3
+SHA1: 5b7e80edf535b462cb12e020e95716de82cf6e62
+MD5sum: 5894187594caff99703a75371edafa6f
 Description: Meta package for Sparrow Hawk
 
 Package: sparrow-hawk-kernel-6.12
@@ -79,6 +79,21 @@ SHA256: 52805995e95ae0634f5aeaa4670403accf6a28b25bf0d7ff63625e8f52ded8f4
 SHA1: a93a9c22b36a38290426617aa778a9ae15dfbbe9
 MD5sum: a5f9fa85b4603c76f6fed503e7400fbd
 Description: cmem driver for Sparrow Hawk kernel
+
+Package: sparrow-hawk-kernel-module-pvrsrvkm
+Version: 6.18.6-1
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 2175
+Homepage: https://github.com/rcar-community/rcar-gfx
+Priority: optional
+Section: misc
+Filename: pool/main/s/sparrow-hawk-kernel-module-pvrsrvkm/sparrow-hawk-kernel-module-pvrsrvkm_6.18.6-1_all.deb
+Size: 399712
+SHA256: a8534f8714d74020c284058252dadec9cafab0af91432a1f54ec1cd470cbdec3
+SHA1: c1f2c3c34f1d57f8a54f546905dfd361a5d47df8
+MD5sum: a825f4fb498a27ad90e1f10fd2d5f8e4
+Description: GFX driver for Sparrow Hawk kernel
 
 Package: sparrow-hawk-libcamera
 Version: 0.6.0-1
