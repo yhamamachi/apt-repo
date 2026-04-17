@@ -115,15 +115,15 @@ Package: sparrow-hawk-misc-config
 Version: 1.0.0-1
 Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
-Installed-Size: 13
+Installed-Size: 16
 Homepage: https://github.com/rcar-community/meta-sparrow-hawk
 Priority: optional
 Section: misc
 Filename: pool/main/s/sparrow-hawk-misc-config/sparrow-hawk-misc-config_1.0.0-1_all.deb
-Size: 1376
-SHA256: 5708df0829e9883bc1a395a3d36912ef73045b66ec39d0eb6650288d87f3aa12
-SHA1: 7f032e18e88e94d9dd29b46e8e6da0b881300664
-MD5sum: 1aff1bd36d7991791f285e6d3d583f6c
+Size: 1524
+SHA256: 4099af2a825febf1fb6facf8fe5e3813728250c979ce256bccea237b2655320b
+SHA1: bbdbc4d5156225115dcddfbe2601c65ec8f08c9c
+MD5sum: c238b054b79166b26291390ccf8ca9a6
 Description: udev rules
 
 Package: sparrow-hawk-mkfit
