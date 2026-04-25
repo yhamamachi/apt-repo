@@ -83,14 +83,17 @@ Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
 Installed-Size: 106747
 Depends: libdw1, libunwind8, libevent-dev
+Conflicts: gstreamer1.0-libcamera
+Replaces: gstreamer1.0-libcamera
+Provides: gstreamer1.0-libcamera
 Homepage: https://git.libcamera.org/libcamera/libcamera.git
 Priority: optional
 Section: misc
 Filename: pool/main/s/sparrow-hawk-libcamera/sparrow-hawk-libcamera_0.6.0-1+deb13_all.deb
-Size: 23984612
-SHA256: 71339520bbac266c78cf4bca8c986dfdfde2bc82a96a44fac22154bf76a1edde
-SHA1: 924d77ab9b6a1dd9c1fe4db0ac92fc1df49dd719
-MD5sum: 5559cc6039c8bc7907cb5bfad322ec26
+Size: 23984420
+SHA256: 75730e9160b945deb9315d5f67553f198ef498bced06b37ffe66307caac56bef
+SHA1: 2bf7232631805dc1aa92a069a3e9c44a082d97e4
+MD5sum: 59cd83c9ffa35f9df4311ea0b8b17f1e
 Description: libcamera for Sparrow Hawk kernel
 
 Package: sparrow-hawk-misc-config
