@@ -1,0 +1,171 @@
+Package: sparrow-hawk-arm-trusted-firmware
+Version: 2.14.0-1
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 140
+Homepage: https://github.com/ARM-software/arm-trusted-firmware
+Priority: optional
+Section: misc
+Filename: pool/main/s/sparrow-hawk-arm-trusted-firmware/sparrow-hawk-arm-trusted-firmware_2.14.0-1_all.deb
+Size: 19336
+SHA256: e825cb33da01ab90b4b8554fd16c75ac99eb6da47295fe5578edd540ec81a54f
+SHA1: 6a84e51ff94e7f7904dc891209980d0ad7e27dc5
+MD5sum: ef09b95f076f42cdc42c839ce0002ce5
+Description: ARM Trusted Firmware (TF-A) BL31 for Sparrow Hawk
+
+Package: sparrow-hawk-bsp
+Version: 1.0.0-5
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 7
+Depends: sparrow-hawk-arm-trusted-firmware, sparrow-hawk-kernel, sparrow-hawk-kernel-module-cmemdrv, sparrow-hawk-kernel-module-pvrsrvkm, sparrow-hawk-libcamera, sparrow-hawk-misc-config, sparrow-hawk-mkfit, sparrow-hawk-pcie-fw, sparrow-hawk-udev, sparrow-hawk-u-boot
+Homepage: https://github.com/ARM-software/arm-trusted-firmware
+Priority: optional
+Section: misc
+Filename: pool/main/s/sparrow-hawk-bsp/sparrow-hawk-bsp_1.0.0-5_all.deb
+Size: 1046
+SHA256: 368cefc74d1b6f60baed4a1bf55e043549052327ec3a8cdb237608705b27b4a3
+SHA1: 5b7e80edf535b462cb12e020e95716de82cf6e62
+MD5sum: 5894187594caff99703a75371edafa6f
+Description: Meta package for Sparrow Hawk
+
+Package: sparrow-hawk-kernel-6.18
+Version: 6.18.6-5
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 52322
+Conflicts: sparrow-hawk-kernel-6.12
+Replaces: sparrow-hawk-kernel-6.12
+Provides: sparrow-hawk-kernel
+Homepage: https://github.com/ARM-software/arm-trusted-firmware
+Priority: optional
+Section: misc
+Filename: pool/main/s/sparrow-hawk-kernel-6.18/sparrow-hawk-kernel-6.18_6.18.6-5_all.deb
+Size: 16416100
+SHA256: 82703e86ace9562bbbea780c60070aa8b2ea0ab75fe2a8f494978f058a95054c
+SHA1: 510229c7d921c6fce096d5ee7c94ad9d7e3b503c
+MD5sum: 6ce5d41223cc8bac1e69210053f78823
+Description: Linux kernel 6.18 for Sparrow Hawk
+
+Package: sparrow-hawk-kernel-module-cmemdrv
+Version: 6.18.6-5
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 32
+Homepage: https://github.com/renesas-rcar/cmem
+Priority: optional
+Section: misc
+Filename: pool/main/s/sparrow-hawk-kernel-module-cmemdrv/sparrow-hawk-kernel-module-cmemdrv_6.18.6-5_all.deb
+Size: 6260
+SHA256: 52805995e95ae0634f5aeaa4670403accf6a28b25bf0d7ff63625e8f52ded8f4
+SHA1: a93a9c22b36a38290426617aa778a9ae15dfbbe9
+MD5sum: a5f9fa85b4603c76f6fed503e7400fbd
+Description: cmem driver for Sparrow Hawk kernel
+
+Package: sparrow-hawk-kernel-module-pvrsrvkm
+Version: 6.18.6-1
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 2175
+Homepage: https://github.com/rcar-community/rcar-gfx
+Priority: optional
+Section: misc
+Filename: pool/main/s/sparrow-hawk-kernel-module-pvrsrvkm/sparrow-hawk-kernel-module-pvrsrvkm_6.18.6-1_all.deb
+Size: 399712
+SHA256: a8534f8714d74020c284058252dadec9cafab0af91432a1f54ec1cd470cbdec3
+SHA1: c1f2c3c34f1d57f8a54f546905dfd361a5d47df8
+MD5sum: a825f4fb498a27ad90e1f10fd2d5f8e4
+Description: GFX driver for Sparrow Hawk kernel
+
+Package: sparrow-hawk-libcamera
+Version: 0.6.0-1+deb13
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 106747
+Depends: libdw1, libunwind8, libevent-dev
+Homepage: https://git.libcamera.org/libcamera/libcamera.git
+Priority: optional
+Section: misc
+Filename: pool/main/s/sparrow-hawk-libcamera/sparrow-hawk-libcamera_0.6.0-1+deb13_all.deb
+Size: 23984612
+SHA256: 71339520bbac266c78cf4bca8c986dfdfde2bc82a96a44fac22154bf76a1edde
+SHA1: 924d77ab9b6a1dd9c1fe4db0ac92fc1df49dd719
+MD5sum: 5559cc6039c8bc7907cb5bfad322ec26
+Description: libcamera for Sparrow Hawk kernel
+
+Package: sparrow-hawk-misc-config
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 16
+Homepage: https://github.com/rcar-community/meta-sparrow-hawk
+Priority: optional
+Section: misc
+Filename: pool/main/s/sparrow-hawk-misc-config/sparrow-hawk-misc-config_1.0.0-1_all.deb
+Size: 1524
+SHA256: 4099af2a825febf1fb6facf8fe5e3813728250c979ce256bccea237b2655320b
+SHA1: bbdbc4d5156225115dcddfbe2601c65ec8f08c9c
+MD5sum: c238b054b79166b26291390ccf8ca9a6
+Description: udev rules
+
+Package: sparrow-hawk-mkfit
+Version: 1.0.0-18
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 22
+Depends: initramfs-tools, busybox-static, binutils, u-boot-tools, device-tree-compiler, sparrow-hawk-kernel, sparrow-hawk-arm-trusted-firmware, sparrow-hawk-pcie-fw
+Homepage: https://github.com/ARM-software/arm-trusted-firmware
+Priority: optional
+Section: misc
+Filename: pool/main/s/sparrow-hawk-mkfit/sparrow-hawk-mkfit_1.0.0-18_all.deb
+Size: 3748
+SHA256: 5e654d0e3b717c00db37a3ad9af57bf92ebd81386363dc1aefda022c13e51674
+SHA1: 5cd1b6a488c7e0193c4e61a3a3fa9523a2080a7c
+MD5sum: f5b705e7b705bcde3e681b169839019c
+Description: Postinst script for generating fitImage automatically
+
+Package: sparrow-hawk-pcie-fw
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 45
+Homepage: https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
+Priority: optional
+Section: misc
+Filename: pool/main/s/sparrow-hawk-pcie-fw/sparrow-hawk-pcie-fw_1.0.0-1_all.deb
+Size: 13832
+SHA256: f7b8494c37096ae4bb3b180d2954e4c4e95ba665da880b4f88ddcd57cd9ee422
+SHA1: 8bde6f441e34d73ca74bc2ed4bbaa8cff082d9c5
+MD5sum: 85da29f33a6d127e1ad1d44024c00f3b
+Description: PCIe Controller firmware for Sparrow Hawk
+
+Package: sparrow-hawk-u-boot
+Version: 2026.01-1
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 2188
+Homepage: https://github.com/ARM-software/arm-trusted-firmware
+Priority: optional
+Section: misc
+Filename: pool/main/s/sparrow-hawk-u-boot/sparrow-hawk-u-boot_2026.01-1_all.deb
+Size: 332852
+SHA256: a1f9f2a686d80280b47455cdf1b6c6dfeec8a0dcdb53a2c5e6751bfd91d2a36d
+SHA1: 04800b68b3feb381feb30e94fb9afb765afb9bf9
+MD5sum: 2eb44bdd3c1a5aad580a9c4f9d6d0d79
+Description: U-Boot for Sparrow Hawk
+
+Package: sparrow-hawk-udev
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 15
+Homepage: https://github.com/rcar-community/meta-sparrow-hawk
+Priority: optional
+Section: misc
+Filename: pool/main/s/sparrow-hawk-udev/sparrow-hawk-udev_1.0.0-1_all.deb
+Size: 1408
+SHA256: 4ee0a0310bf28b687a39127f3724046ad26f4e19fcb179c7dae1d69d81e0d77e
+SHA1: 205f475bceba434564f6b02b8ca133b435d80356
+MD5sum: 5acd8ab7e1989ff8a7020ceba9a4c707
+Description: udev rules
+
