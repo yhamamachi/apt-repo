@@ -89,10 +89,10 @@ Homepage: https://github.com/rcar-community/rcar-gfx
 Priority: optional
 Section: misc
 Filename: pool/main/s/sparrow-hawk-kernel-module-pvrsrvkm/sparrow-hawk-kernel-module-pvrsrvkm_6.18.6-1_all.deb
-Size: 399712
-SHA256: a8534f8714d74020c284058252dadec9cafab0af91432a1f54ec1cd470cbdec3
-SHA1: c1f2c3c34f1d57f8a54f546905dfd361a5d47df8
-MD5sum: a825f4fb498a27ad90e1f10fd2d5f8e4
+Size: 401348
+SHA256: 950fc316b3e466f7fa0c1363555f8083879dd849b7f57a4af7b9a015fa7e9a22
+SHA1: 8ad7fcaa6e8c48741bd6740d05917ee6f237e674
+MD5sum: c51fc73a8c55ed543ff3ca9495791d63
 Description: GFX driver for Sparrow Hawk kernel
 
 Package: sparrow-hawk-libcamera
