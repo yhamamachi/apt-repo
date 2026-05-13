@@ -41,10 +41,10 @@ Homepage: https://github.com/ARM-software/arm-trusted-firmware
 Priority: optional
 Section: misc
 Filename: pool/main/s/sparrow-hawk-kernel-6.18/sparrow-hawk-kernel-6.18_6.18.20-1_all.deb
-Size: 16466292
-SHA256: ea8f3a0171be3926b3107f26b73f8437fc415dc9c141051975a2910b3da7cc7c
-SHA1: 222a11993e983ba510041efad3c06b80555bdf75
-MD5sum: 3090d408a8e14e7d06bbb6bd93314fd1
+Size: 16466116
+SHA256: 1a7d55f7eb3ef56d5e976edcf7e68d1ebf4c0ba90d74ba01f5910f901bc444a6
+SHA1: 3a0a1a9037ed42fbe8d3f097eac25951bd44749e
+MD5sum: 11d21e6bee648989142eeac1c4a82662
 Description: Linux kernel 6.18 for Sparrow Hawk
 
 Package: sparrow-hawk-kernel-module-cmemdrv
