@@ -143,18 +143,18 @@ MD5sum: a2e2d9a16a35508c4cd459aed216d66a
 Description: Postinst script for generating fitImage automatically
 
 Package: sparrow-hawk-pcie-fw
-Version: 1.0.0-1
+Version: 1.0.0-2
 Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
 Installed-Size: 45
 Homepage: https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
 Priority: optional
 Section: misc
-Filename: pool/main/s/sparrow-hawk-pcie-fw/sparrow-hawk-pcie-fw_1.0.0-1_all.deb
-Size: 13832
-SHA256: f7b8494c37096ae4bb3b180d2954e4c4e95ba665da880b4f88ddcd57cd9ee422
-SHA1: 8bde6f441e34d73ca74bc2ed4bbaa8cff082d9c5
-MD5sum: 85da29f33a6d127e1ad1d44024c00f3b
+Filename: pool/main/s/sparrow-hawk-pcie-fw/sparrow-hawk-pcie-fw_1.0.0-2_all.deb
+Size: 13780
+SHA256: 7bd80bb78a1440c973fbf56720501ebd751564eff26489ba7bce643c5d343a7a
+SHA1: 6855dede8d29fd202286becec3b0a1c5e9ad1996
+MD5sum: f6472b8989d9a1469bb8b21c04061ed8
 Description: PCIe Controller firmware for Sparrow Hawk
 
 Package: sparrow-hawk-u-boot
