@@ -97,18 +97,18 @@ MD5sum: 59cd83c9ffa35f9df4311ea0b8b17f1e
 Description: libcamera for Sparrow Hawk kernel
 
 Package: sparrow-hawk-misc-config
-Version: 1.0.0-1
+Version: 1.0.0-2
 Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
 Installed-Size: 16
 Homepage: https://github.com/rcar-community/meta-sparrow-hawk
 Priority: optional
 Section: misc
-Filename: pool/main/s/sparrow-hawk-misc-config/sparrow-hawk-misc-config_1.0.0-1_all.deb
-Size: 1524
-SHA256: 4099af2a825febf1fb6facf8fe5e3813728250c979ce256bccea237b2655320b
-SHA1: bbdbc4d5156225115dcddfbe2601c65ec8f08c9c
-MD5sum: c238b054b79166b26291390ccf8ca9a6
+Filename: pool/main/s/sparrow-hawk-misc-config/sparrow-hawk-misc-config_1.0.0-2_all.deb
+Size: 1532
+SHA256: 58d107eed8711cc8843d51cacc9b9a7d023bcdf3a0715685cf4ee59afb791d87
+SHA1: 59abf1747e22e68bf6ed24d9e9df5664b48f5198
+MD5sum: e26ce5d1a105386e911e678655e3af34
 Description: udev rules
 
 Package: sparrow-hawk-mkfit
