@@ -33,7 +33,7 @@ Package: sparrow-hawk-kernel-6.18
 Version: 6.18.20-1
 Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
-Installed-Size: 48909
+Installed-Size: 52350
 Conflicts: sparrow-hawk-kernel-6.12
 Replaces: sparrow-hawk-kernel-6.12
 Provides: sparrow-hawk-kernel
@@ -41,40 +41,40 @@ Homepage: https://github.com/ARM-software/arm-trusted-firmware
 Priority: optional
 Section: misc
 Filename: pool/main/s/sparrow-hawk-kernel-6.18/sparrow-hawk-kernel-6.18_6.18.20-1_all.deb
-Size: 15326120
-SHA256: 340c34259f5c60fab75a7c2b29af0a46542001f7e1ba3826fa807dd7ccad25a7
-SHA1: 4e7747c7fb1fc2d6d9cf8b11c941249f97167738
-MD5sum: 1667385cb263c402a433066349025dcb
+Size: 16455132
+SHA256: df73191ee2c5484e50f59efadab5e504206964deda82d57efd153c32c579db0a
+SHA1: 4dc0e4e4a6a22d4588a4afedda2d36ee53856186
+MD5sum: e3dc2c2c5662a6274cf3fa861ec230db
 Description: Linux kernel 6.18 for Sparrow Hawk
 
 Package: sparrow-hawk-kernel-module-cmemdrv
-Version: 6.18.6-5
+Version: 6.18.20-1
 Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
 Installed-Size: 32
 Homepage: https://github.com/renesas-rcar/cmem
 Priority: optional
 Section: misc
-Filename: pool/main/s/sparrow-hawk-kernel-module-cmemdrv/sparrow-hawk-kernel-module-cmemdrv_6.18.6-5_all.deb
-Size: 6260
-SHA256: 52805995e95ae0634f5aeaa4670403accf6a28b25bf0d7ff63625e8f52ded8f4
-SHA1: a93a9c22b36a38290426617aa778a9ae15dfbbe9
-MD5sum: a5f9fa85b4603c76f6fed503e7400fbd
+Filename: pool/main/s/sparrow-hawk-kernel-module-cmemdrv/sparrow-hawk-kernel-module-cmemdrv_6.18.20-1_all.deb
+Size: 6256
+SHA256: 1fa923f9428749022361c83d852b0c02e569b5bdf63b656265b50c27f4d9d2e1
+SHA1: 5fe4cc84548e06eb10ad9bfdf75c8df7120b98ba
+MD5sum: 4992343012cfa73c5a8b232859a00705
 Description: cmem driver for Sparrow Hawk kernel
 
 Package: sparrow-hawk-kernel-module-pvrsrvkm
 Version: 6.18.20-1
 Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
-Installed-Size: 2174
+Installed-Size: 2175
 Homepage: https://github.com/rcar-community/rcar-gfx
 Priority: optional
 Section: misc
 Filename: pool/main/s/sparrow-hawk-kernel-module-pvrsrvkm/sparrow-hawk-kernel-module-pvrsrvkm_6.18.20-1_all.deb
-Size: 401684
-SHA256: 02920955d1dbb1dfe8c4ff2531680a24e588497733c47b29a2a67ddae30a5c68
-SHA1: 5f30fa02c61b7d50c5450f6bd64270812c584172
-MD5sum: a8b40a8bd26368e44af9fad7035519b8
+Size: 401972
+SHA256: ab4638a555054ffc7751dceff3458aacd30ac50c5ba9954072a30956996cd982
+SHA1: 6dfa5291176f17616268cc3f618bde8c6651038e
+MD5sum: 16cb52a1e365df30908ee0c424484598
 Description: GFX driver for Sparrow Hawk kernel
 
 Package: sparrow-hawk-libcamera
@@ -112,7 +112,7 @@ MD5sum: c238b054b79166b26291390ccf8ca9a6
 Description: udev rules
 
 Package: sparrow-hawk-mkfit
-Version: 1.0.0-18
+Version: 1.0.0-19
 Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
 Installed-Size: 22
@@ -120,11 +120,11 @@ Depends: initramfs-tools, busybox-static, binutils, u-boot-tools, device-tree-co
 Homepage: https://github.com/ARM-software/arm-trusted-firmware
 Priority: optional
 Section: misc
-Filename: pool/main/s/sparrow-hawk-mkfit/sparrow-hawk-mkfit_1.0.0-18_all.deb
-Size: 3778
-SHA256: d2215f0108acd4ef03ce29995e4821935bb45360398cb279c5aba217bb8095d3
-SHA1: 04f058006c7cf9096e0da068a70cb1835fa31f90
-MD5sum: 72207be3fe1336b27f0d9f545598d92c
+Filename: pool/main/s/sparrow-hawk-mkfit/sparrow-hawk-mkfit_1.0.0-19_all.deb
+Size: 3806
+SHA256: b34ff419a29c7ad4edc024ba027ad5a7a0236681a2084df672b746c60fc06222
+SHA1: 6ff9d0e3a96e4289f05dc291662792e5b6aec4db
+MD5sum: a2e2d9a16a35508c4cd459aed216d66a
 Description: Postinst script for generating fitImage automatically
 
 Package: sparrow-hawk-pcie-fw
