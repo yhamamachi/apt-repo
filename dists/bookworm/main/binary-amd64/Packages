@@ -1,43 +1,29 @@
 Package: linux-headers-6.18-arm64-renesas
-Version: 6.18.20-2
+Version: 6.18.20-3
 Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
 Depends: linux-headers-6.18.20-arm64-renesas
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-headers-6.18-arm64-renesas/linux-headers-6.18-arm64-renesas_6.18.20-2_all.deb
+Filename: pool/main/l/linux-headers-6.18-arm64-renesas/linux-headers-6.18-arm64-renesas_6.18.20-3_all.deb
 Size: 744
-SHA256: 667e6f4a0c9d4683665e3bd048a9a47bcc1d7c41355a379557b0a01ecce1ce5d
-SHA1: 96d75adbda554e88f26d5b47c2a999f7a6cd96e1
-MD5sum: 10e9180e9783d98a2f94a61750d299fe
+SHA256: fdf61a8bf08269bf8f6270ca14976bf2b8493603ec64aed115bb67f0c76b6c28
+SHA1: 7b79d67e32403e2b500f7221dd66ad7e1e38c2ea
+MD5sum: 09c84790a8d6b2fba947314d9b44d65e
 Description: Renesas kernel meta package for arm64
 
 Package: linux-image-6.18-arm64-renesas
-Version: 6.18.20-2
+Version: 6.18.20-3
 Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
 Depends: linux-image-6.18.20-arm64-renesas
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-image-6.18-arm64-renesas/linux-image-6.18-arm64-renesas_6.18.20-2_all.deb
+Filename: pool/main/l/linux-image-6.18-arm64-renesas/linux-image-6.18-arm64-renesas_6.18.20-3_all.deb
 Size: 740
-SHA256: 0edbb16de59665a6f9ee34dae91b94b43dee90ac244de99bba1b714f20fdc22f
-SHA1: 5427b4014c026701da3117e479f6cf48d5e4b77b
-MD5sum: 4da4c06d946b8d41b38cc5a3a94e78a6
-Description: Renesas kernel meta package for arm64
-
-Package: linux-libc-dev
-Version: 6.18.20-2
-Architecture: all
-Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
-Depends: linux-libc-dev
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-libc-dev/linux-libc-dev_6.18.20-2_all.deb
-Size: 732
-SHA256: 188b0ab560a82630f79e94cb3faae56b953a47032fd4c58a020ff654cc896248
-SHA1: 26c49d93e4fd2579fa1148ffcf1d4060e672cd24
-MD5sum: 6317768b1584eff69dc99c605ff05cbb
+SHA256: 18d580fee7cbe1c62030f3ff65a89fad102a2ee94667f5ea08afee030d928843
+SHA1: 20ed8ef8d4d1ea368f793ae0d0ba3cb7b0079d3d
+MD5sum: 1b420a1c5cb538b58a6e999e921d3765
 Description: Renesas kernel meta package for arm64
 
 Package: sparrow-hawk-arm-trusted-firmware

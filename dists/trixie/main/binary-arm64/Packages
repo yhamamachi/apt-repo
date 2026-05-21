@@ -1,81 +1,87 @@
 Package: linux-headers-6.18-arm64-renesas
-Version: 6.18.20-2
+Version: 6.18.20-3
 Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
 Depends: linux-headers-6.18.20-arm64-renesas
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-headers-6.18-arm64-renesas/linux-headers-6.18-arm64-renesas_6.18.20-2_all.deb
+Filename: pool/main/l/linux-headers-6.18-arm64-renesas/linux-headers-6.18-arm64-renesas_6.18.20-3_all.deb
 Size: 744
-SHA256: 667e6f4a0c9d4683665e3bd048a9a47bcc1d7c41355a379557b0a01ecce1ce5d
-SHA1: 96d75adbda554e88f26d5b47c2a999f7a6cd96e1
-MD5sum: 10e9180e9783d98a2f94a61750d299fe
+SHA256: fdf61a8bf08269bf8f6270ca14976bf2b8493603ec64aed115bb67f0c76b6c28
+SHA1: 7b79d67e32403e2b500f7221dd66ad7e1e38c2ea
+MD5sum: 09c84790a8d6b2fba947314d9b44d65e
 Description: Renesas kernel meta package for arm64
 
 Package: linux-headers-6.18.20-arm64-renesas
 Source: linux-upstream
-Version: 6.18.20-2
+Version: 6.18.20-3
 Architecture: arm64
-Maintainer: yuya <yuya@7a5db11f63e6>
+Maintainer: yuya <yuya@372fce8623d6>
 Installed-Size: 53562
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.18.20-arm64-renesas_6.18.20-2_arm64.deb
-Size: 8870404
-SHA256: 76eb3643b836240a7f90145da4663cbb354d7038484d642c208e1b87a85149ad
-SHA1: 0f928ac17c5a7548f38cee5ddd6f6f46599b657e
-MD5sum: b2b24a740153d1a17b18cfbd2829d1af
+Filename: pool/main/l/linux-upstream/linux-headers-6.18.20-arm64-renesas_6.18.20-3_arm64.deb
+Size: 8870548
+SHA256: f21cc6c1d545de19958232100a448abc07c4468b952dc24c5412c4dde8ce1655
+SHA1: 230fa2def5a0b7336c7a056875845431408d1af9
+MD5sum: 8929e7d33d82c5fe1ec25c57b0dbfc3c
 Description: Linux kernel headers for 6.18.20-arm64-renesas on arm64
  This package provides kernel header files for 6.18.20-arm64-renesas on arm64
  .
  This is useful for people who need to build external modules
 
 Package: linux-image-6.18-arm64-renesas
-Version: 6.18.20-2
+Version: 6.18.20-3
 Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
 Depends: linux-image-6.18.20-arm64-renesas
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-image-6.18-arm64-renesas/linux-image-6.18-arm64-renesas_6.18.20-2_all.deb
+Filename: pool/main/l/linux-image-6.18-arm64-renesas/linux-image-6.18-arm64-renesas_6.18.20-3_all.deb
 Size: 740
-SHA256: 0edbb16de59665a6f9ee34dae91b94b43dee90ac244de99bba1b714f20fdc22f
-SHA1: 5427b4014c026701da3117e479f6cf48d5e4b77b
-MD5sum: 4da4c06d946b8d41b38cc5a3a94e78a6
+SHA256: 18d580fee7cbe1c62030f3ff65a89fad102a2ee94667f5ea08afee030d928843
+SHA1: 20ed8ef8d4d1ea368f793ae0d0ba3cb7b0079d3d
+MD5sum: 1b420a1c5cb538b58a6e999e921d3765
 Description: Renesas kernel meta package for arm64
 
 Package: linux-image-6.18.20-arm64-renesas
 Source: linux-upstream
-Version: 6.18.20-2
+Version: 6.18.20-3
 Architecture: arm64
-Maintainer: yuya <yuya@7a5db11f63e6>
-Installed-Size: 18898
+Maintainer: yuya <yuya@372fce8623d6>
+Installed-Size: 18921
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.18.20-arm64-renesas_6.18.20-2_arm64.deb
-Size: 11549396
-SHA256: 19a4e08bc8e6aaa1838aaeeafea003d114b005a58112c6b143d7b95bcf687eca
-SHA1: 8a9172ef8a46774dd5c8052e13fe218aa1d51160
-MD5sum: 9ed92dd7bb0ac0178c9465f5f2439e27
+Filename: pool/main/l/linux-upstream/linux-image-6.18.20-arm64-renesas_6.18.20-3_arm64.deb
+Size: 11554704
+SHA256: b49a93cb4467fd674a9915e8bd7ae55e5fcb02efacaed63e8f8c5ce847f2da82
+SHA1: e448e77a26005764bfafa31085e04a22a47d2918
+MD5sum: b64fce6e50c76a86d0b92a7eb6b98865
 Description: Linux kernel, version 6.18.20-arm64-renesas
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.18.20-arm64-renesas.
 
 Package: linux-libc-dev
-Version: 6.18.20-2
-Architecture: all
-Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
-Depends: linux-libc-dev
+Source: linux-upstream
+Version: 6.18.20-3
+Architecture: arm64
+Maintainer: yuya <yuya@372fce8623d6>
+Installed-Size: 7426
+Provides: linux-kernel-headers
+Multi-Arch: same
+Homepage: https://www.kernel.org/
 Priority: optional
-Section: misc
-Filename: pool/main/l/linux-libc-dev/linux-libc-dev_6.18.20-2_all.deb
-Size: 732
-SHA256: 188b0ab560a82630f79e94cb3faae56b953a47032fd4c58a020ff654cc896248
-SHA1: 26c49d93e4fd2579fa1148ffcf1d4060e672cd24
-MD5sum: 6317768b1584eff69dc99c605ff05cbb
-Description: Renesas kernel meta package for arm64
+Section: devel
+Filename: pool/main/l/linux-upstream/linux-libc-dev_6.18.20-3_arm64.deb
+Size: 1440676
+SHA256: e718a5fa2f57ddf6b5e87f29c9d1813b96581fab11b5f02bf22a6bdd625bbee3
+SHA1: a5b94554f6a1e01390cac07c0d8223434a62e4d0
+MD5sum: abf10db2ccd4a384f9e70ea7a7de86bb
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
 
 Package: sparrow-hawk-arm-trusted-firmware
 Version: 2.14.0-1
