@@ -1,3 +1,82 @@
+Package: linux-headers-6.18-arm64-renesas
+Version: 6.18.20-2
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Depends: linux-headers-6.18.20-arm64-renesas
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-6.18-arm64-renesas/linux-headers-6.18-arm64-renesas_6.18.20-2_all.deb
+Size: 744
+SHA256: 667e6f4a0c9d4683665e3bd048a9a47bcc1d7c41355a379557b0a01ecce1ce5d
+SHA1: 96d75adbda554e88f26d5b47c2a999f7a6cd96e1
+MD5sum: 10e9180e9783d98a2f94a61750d299fe
+Description: Renesas kernel meta package for arm64
+
+Package: linux-headers-6.18.20-arm64-renesas
+Source: linux-upstream
+Version: 6.18.20-2
+Architecture: arm64
+Maintainer: yuya <yuya@7a5db11f63e6>
+Installed-Size: 53562
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.18.20-arm64-renesas_6.18.20-2_arm64.deb
+Size: 8870404
+SHA256: 76eb3643b836240a7f90145da4663cbb354d7038484d642c208e1b87a85149ad
+SHA1: 0f928ac17c5a7548f38cee5ddd6f6f46599b657e
+MD5sum: b2b24a740153d1a17b18cfbd2829d1af
+Description: Linux kernel headers for 6.18.20-arm64-renesas on arm64
+ This package provides kernel header files for 6.18.20-arm64-renesas on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-6.18-arm64-renesas
+Version: 6.18.20-2
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Depends: linux-image-6.18.20-arm64-renesas
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-6.18-arm64-renesas/linux-image-6.18-arm64-renesas_6.18.20-2_all.deb
+Size: 740
+SHA256: 0edbb16de59665a6f9ee34dae91b94b43dee90ac244de99bba1b714f20fdc22f
+SHA1: 5427b4014c026701da3117e479f6cf48d5e4b77b
+MD5sum: 4da4c06d946b8d41b38cc5a3a94e78a6
+Description: Renesas kernel meta package for arm64
+
+Package: linux-image-6.18.20-arm64-renesas
+Source: linux-upstream
+Version: 6.18.20-2
+Architecture: arm64
+Maintainer: yuya <yuya@7a5db11f63e6>
+Installed-Size: 18898
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.18.20-arm64-renesas_6.18.20-2_arm64.deb
+Size: 11549396
+SHA256: 19a4e08bc8e6aaa1838aaeeafea003d114b005a58112c6b143d7b95bcf687eca
+SHA1: 8a9172ef8a46774dd5c8052e13fe218aa1d51160
+MD5sum: 9ed92dd7bb0ac0178c9465f5f2439e27
+Description: Linux kernel, version 6.18.20-arm64-renesas
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.18.20-arm64-renesas.
+
+Package: linux-libc-dev
+Version: 6.18.20-2
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Depends: linux-libc-dev
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-libc-dev/linux-libc-dev_6.18.20-2_all.deb
+Size: 732
+SHA256: 188b0ab560a82630f79e94cb3faae56b953a47032fd4c58a020ff654cc896248
+SHA1: 26c49d93e4fd2579fa1148ffcf1d4060e672cd24
+MD5sum: 6317768b1584eff69dc99c605ff05cbb
+Description: Renesas kernel meta package for arm64
+
 Package: sparrow-hawk-arm-trusted-firmware
 Version: 2.14.0-1
 Architecture: all
@@ -14,19 +93,19 @@ MD5sum: ef09b95f076f42cdc42c839ce0002ce5
 Description: ARM Trusted Firmware (TF-A) BL31 for Sparrow Hawk
 
 Package: sparrow-hawk-bsp
-Version: 1.0.0-5
+Version: 1.0.0-6
 Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
 Installed-Size: 7
-Depends: sparrow-hawk-arm-trusted-firmware, sparrow-hawk-kernel, sparrow-hawk-kernel-module-cmemdrv, sparrow-hawk-kernel-module-pvrsrvkm, sparrow-hawk-libcamera, sparrow-hawk-misc-config, sparrow-hawk-mkfit, sparrow-hawk-pcie-fw, sparrow-hawk-udev, sparrow-hawk-u-boot
+Depends: linux-image-6.18-arm64-renesas, sparrow-hawk-arm-trusted-firmware, sparrow-hawk-kernel-module-cmemdrv, sparrow-hawk-kernel-module-pvrsrvkm, sparrow-hawk-libcamera, sparrow-hawk-misc-config, sparrow-hawk-mkfit, sparrow-hawk-pcie-fw, sparrow-hawk-udev, sparrow-hawk-u-boot
 Homepage: https://github.com/ARM-software/arm-trusted-firmware
 Priority: optional
 Section: misc
-Filename: pool/main/s/sparrow-hawk-bsp/sparrow-hawk-bsp_1.0.0-5_all.deb
-Size: 1046
-SHA256: 368cefc74d1b6f60baed4a1bf55e043549052327ec3a8cdb237608705b27b4a3
-SHA1: 5b7e80edf535b462cb12e020e95716de82cf6e62
-MD5sum: 5894187594caff99703a75371edafa6f
+Filename: pool/main/s/sparrow-hawk-bsp/sparrow-hawk-bsp_1.0.0-6_all.deb
+Size: 1064
+SHA256: efa0d61b2c6da1eb20d3a80e2bcfeec6403442c1e9ead6e7f4014daa5f79159e
+SHA1: d95f3567975d7cf840ff34493d26650be3c3c96c
+MD5sum: 190f85deafe3e953881e20a8fe1d6bbe
 Description: Meta package for Sparrow Hawk
 
 Package: sparrow-hawk-kernel-6.18
@@ -112,19 +191,19 @@ MD5sum: e26ce5d1a105386e911e678655e3af34
 Description: udev rules
 
 Package: sparrow-hawk-mkfit
-Version: 1.0.0-19
+Version: 1.0.0-20
 Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
-Installed-Size: 22
+Installed-Size: 28
 Depends: initramfs-tools, busybox-static, binutils, u-boot-tools, device-tree-compiler, sparrow-hawk-kernel, sparrow-hawk-arm-trusted-firmware, sparrow-hawk-pcie-fw
 Homepage: https://github.com/ARM-software/arm-trusted-firmware
 Priority: optional
 Section: misc
-Filename: pool/main/s/sparrow-hawk-mkfit/sparrow-hawk-mkfit_1.0.0-19_all.deb
-Size: 3806
-SHA256: b34ff419a29c7ad4edc024ba027ad5a7a0236681a2084df672b746c60fc06222
-SHA1: 6ff9d0e3a96e4289f05dc291662792e5b6aec4db
-MD5sum: a2e2d9a16a35508c4cd459aed216d66a
+Filename: pool/main/s/sparrow-hawk-mkfit/sparrow-hawk-mkfit_1.0.0-20_all.deb
+Size: 4030
+SHA256: c3c05b529998e4789c3e8779b6ee851366e3217e4a4b9292159ad535a4f83582
+SHA1: 69b998d570542eeaa2b3772e1fdff55b67d9af28
+MD5sum: 497a27b72e5eec5be24b38b58069072b
 Description: Postinst script for generating fitImage automatically
 
 Package: sparrow-hawk-pcie-fw
