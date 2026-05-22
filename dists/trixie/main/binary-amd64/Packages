@@ -1,29 +1,29 @@
 Package: linux-headers-6.18-arm64-renesas
-Version: 6.18.20-3
+Version: 6.18.20-4
 Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
 Depends: linux-headers-6.18.20-arm64-renesas
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-headers-6.18-arm64-renesas/linux-headers-6.18-arm64-renesas_6.18.20-3_all.deb
+Filename: pool/main/l/linux-headers-6.18-arm64-renesas/linux-headers-6.18-arm64-renesas_6.18.20-4_all.deb
 Size: 744
-SHA256: fdf61a8bf08269bf8f6270ca14976bf2b8493603ec64aed115bb67f0c76b6c28
-SHA1: 7b79d67e32403e2b500f7221dd66ad7e1e38c2ea
-MD5sum: 09c84790a8d6b2fba947314d9b44d65e
+SHA256: 8790c5007f3e5bea7c95d3275fd1326801fb3ba0dcf3edff277d3edf628068e3
+SHA1: 9dd698a78cc9754b0aa078003a47fd44f9cc6024
+MD5sum: 2513d574d3522acccc96a73d1297d6b8
 Description: Renesas kernel meta package for arm64
 
 Package: linux-image-6.18-arm64-renesas
-Version: 6.18.20-3
+Version: 6.18.20-4
 Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
 Depends: linux-image-6.18.20-arm64-renesas
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-image-6.18-arm64-renesas/linux-image-6.18-arm64-renesas_6.18.20-3_all.deb
+Filename: pool/main/l/linux-image-6.18-arm64-renesas/linux-image-6.18-arm64-renesas_6.18.20-4_all.deb
 Size: 740
-SHA256: 18d580fee7cbe1c62030f3ff65a89fad102a2ee94667f5ea08afee030d928843
-SHA1: 20ed8ef8d4d1ea368f793ae0d0ba3cb7b0079d3d
-MD5sum: 1b420a1c5cb538b58a6e999e921d3765
+SHA256: 1611859143b3c88481e8d47c8f9f40c8767a75f4158135b8c075ef9e49c85d4e
+SHA1: 18cfb9ce23d67e815b6c08356f34a8c1b6cabec5
+MD5sum: 44a5935d634c10af0eb515b63d976e1a
 Description: Renesas kernel meta package for arm64
 
 Package: sparrow-hawk-arm-trusted-firmware
