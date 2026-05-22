@@ -99,19 +99,19 @@ MD5sum: ef09b95f076f42cdc42c839ce0002ce5
 Description: ARM Trusted Firmware (TF-A) BL31 for Sparrow Hawk
 
 Package: sparrow-hawk-bsp
-Version: 1.0.0-6
+Version: 1.0.0-7
 Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
 Installed-Size: 7
-Depends: linux-image-6.18-arm64-renesas, sparrow-hawk-arm-trusted-firmware, sparrow-hawk-kernel-module-cmemdrv, sparrow-hawk-kernel-module-pvrsrvkm, sparrow-hawk-libcamera, sparrow-hawk-misc-config, sparrow-hawk-mkfit, sparrow-hawk-pcie-fw, sparrow-hawk-udev, sparrow-hawk-u-boot
+Depends: linux-image-6.18-arm64-renesas, sparrow-hawk-arm-trusted-firmware, sparrow-hawk-kernel-module-cmemdrv, sparrow-hawk-libcamera, sparrow-hawk-misc-config, sparrow-hawk-mkfit, sparrow-hawk-pcie-fw, sparrow-hawk-udev, sparrow-hawk-u-boot
 Homepage: https://github.com/ARM-software/arm-trusted-firmware
 Priority: optional
 Section: misc
-Filename: pool/main/s/sparrow-hawk-bsp/sparrow-hawk-bsp_1.0.0-6_all.deb
-Size: 1064
-SHA256: efa0d61b2c6da1eb20d3a80e2bcfeec6403442c1e9ead6e7f4014daa5f79159e
-SHA1: d95f3567975d7cf840ff34493d26650be3c3c96c
-MD5sum: 190f85deafe3e953881e20a8fe1d6bbe
+Filename: pool/main/s/sparrow-hawk-bsp/sparrow-hawk-bsp_1.0.0-7_all.deb
+Size: 1058
+SHA256: 8682ec7c418bad95873a103441ded977675d9489c72e4282317db4d56eadfb1f
+SHA1: ff722e5eec3df48ae7579727f745075f03beee93
+MD5sum: 6e6760a1902c3140f862098cd589e552
 Description: Meta package for Sparrow Hawk
 
 Package: sparrow-hawk-kernel-6.12
@@ -164,21 +164,6 @@ SHA256: 1fa923f9428749022361c83d852b0c02e569b5bdf63b656265b50c27f4d9d2e1
 SHA1: 5fe4cc84548e06eb10ad9bfdf75c8df7120b98ba
 MD5sum: 4992343012cfa73c5a8b232859a00705
 Description: cmem driver for Sparrow Hawk kernel
-
-Package: sparrow-hawk-kernel-module-pvrsrvkm
-Version: 6.18.20-1
-Architecture: all
-Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
-Installed-Size: 2175
-Homepage: https://github.com/rcar-community/rcar-gfx
-Priority: optional
-Section: misc
-Filename: pool/main/s/sparrow-hawk-kernel-module-pvrsrvkm/sparrow-hawk-kernel-module-pvrsrvkm_6.18.20-1_all.deb
-Size: 401972
-SHA256: ab4638a555054ffc7751dceff3458aacd30ac50c5ba9954072a30956996cd982
-SHA1: 6dfa5291176f17616268cc3f618bde8c6651038e
-MD5sum: 16cb52a1e365df30908ee0c424484598
-Description: GFX driver for Sparrow Hawk kernel
 
 Package: sparrow-hawk-libcamera
 Version: 0.6.0-1+deb12
