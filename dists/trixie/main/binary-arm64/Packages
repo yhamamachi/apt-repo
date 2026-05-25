@@ -259,3 +259,19 @@ SHA1: 205f475bceba434564f6b02b8ca133b435d80356
 MD5sum: 5acd8ab7e1989ff8a7020ceba9a4c707
 Description: udev rules
 
+Package: sparrow-hawk-utils
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 10
+Depends: parted, e2fsprogs
+Homepage: https://github.com/rcar-community/meta-sparrow-hawk
+Priority: optional
+Section: misc
+Filename: pool/main/s/sparrow-hawk-utils/sparrow-hawk-utils_1.0.0-1_all.deb
+Size: 1780
+SHA256: 6124f7e5e3b8bebf47c0c3165152749e5668f6a0493824624b1f22a8331c121e
+SHA1: 3b6ad74bf2eccdece1f6fc0fee03c112a15663a5
+MD5sum: 771d1ede469715d7336657ae09f2315b
+Description: Utilities/Helper files for Sparrow Hawk
+
