@@ -1,3 +1,20 @@
+Package: cmemdrv-dkms
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 53
+Depends: dkms
+Provides: cmemdrv-modules
+Homepage: https://github.com/renesas-rcar/cmem
+Priority: optional
+Section: misc
+Filename: pool/main/c/cmemdrv-dkms/cmemdrv-dkms_1.0.0-1_all.deb
+Size: 13196
+SHA256: 0d35511cc6ee42265a8fb495c18b97f2644cc1271cf727d1d736074ff6011964
+SHA1: f307108ddee39a084e8e251e9361413d443834b9
+MD5sum: 093b5f0ae286f2ddff9ec1764b55ddcb
+Description: cmem driver for Sparrow Hawk kernel
+
 Package: linux-headers-6.18-arm64-renesas
 Version: 6.18.20-4
 Architecture: all
