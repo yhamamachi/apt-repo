@@ -100,6 +100,23 @@ Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
 
+Package: qos-dkms
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 78
+Depends: dkms
+Provides: qos-modules
+Homepage: https://github.com/renesas-rcar/qos_drv
+Priority: optional
+Section: misc
+Filename: pool/main/q/qos-dkms/qos-dkms_1.0.0-1_all.deb
+Size: 13908
+SHA256: 55f67a35fe4ad3bc98e0d277ccbea8e642c5ba5940fde4e753309a59f6febe18
+SHA1: 8848beeb772b4966fadd32e426ffb4200ff83279
+MD5sum: 6a495e8c83a9c8e477c932c0efe4b005
+Description: qos driver for Sparrow Hawk kernel
+
 Package: sparrow-hawk-arm-trusted-firmware
 Version: 2.14.0-1
 Architecture: all
