@@ -9,9 +9,9 @@ UpdateDeb () {
     PKG_NAME=$(basename $1 | cut -f1 -d_)
 
     targets=("bookworm" "trixie")
-    if [[ "$(echo $1 | grep +deb12)" == != ]]; then
+    if [[ "$(echo $1 | grep +deb12)" != "" ]]; then
         targets=("bookworm")
-    elif [[ "$(echo $1 | grep +deb13)" == != ]]; then
+    elif [[ "$(echo $1 | grep +deb13)" != "" ]]; then
         targets=("trixie")
     fi
 
