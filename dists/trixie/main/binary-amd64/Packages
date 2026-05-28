@@ -60,6 +60,21 @@ SHA1: 8848beeb772b4966fadd32e426ffb4200ff83279
 MD5sum: 6a495e8c83a9c8e477c932c0efe4b005
 Description: qos driver for Sparrow Hawk kernel
 
+Package: qos-lib
+Version: 1.0.0-1+deb13
+Architecture: all
+Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
+Installed-Size: 152
+Homepage: https://github.com/renesas-rcar/qos_lib
+Priority: optional
+Section: misc
+Filename: pool/main/q/qos-lib/qos-lib_1.0.0-1+deb13_all.deb
+Size: 7356
+SHA256: 5db6a213d610b20ccb4e033c8aef4c5d95c2c74a4344967aab4233e6617552f9
+SHA1: 711befa663d1e43b5e09a3f8c0a2e543aa3b823d
+MD5sum: e3abd45838878a30eaeb5093661f8fbb
+Description: qos-lib for Sparrow Hawk
+
 Package: sparrow-hawk-arm-trusted-firmware
 Version: 2.14.0-1
 Architecture: all
