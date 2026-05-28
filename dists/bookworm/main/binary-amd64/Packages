@@ -16,31 +16,31 @@ MD5sum: 093b5f0ae286f2ddff9ec1764b55ddcb
 Description: cmem driver for Sparrow Hawk kernel
 
 Package: linux-headers-6.18-arm64-renesas
-Version: 6.18.20-4
+Version: 6.18.20-5
 Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
 Depends: linux-headers-6.18.20-arm64-renesas
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-headers-6.18-arm64-renesas/linux-headers-6.18-arm64-renesas_6.18.20-4_all.deb
+Filename: pool/main/l/linux-headers-6.18-arm64-renesas/linux-headers-6.18-arm64-renesas_6.18.20-5_all.deb
 Size: 744
-SHA256: 8790c5007f3e5bea7c95d3275fd1326801fb3ba0dcf3edff277d3edf628068e3
-SHA1: 9dd698a78cc9754b0aa078003a47fd44f9cc6024
-MD5sum: 2513d574d3522acccc96a73d1297d6b8
+SHA256: f9502e85ff26fbb4ef0f3330e371ccab95760e176121b5d1532a21038be8f199
+SHA1: de345b6341dd17516cd0644e2380ad42d2e171bb
+MD5sum: 95e1fd3cd60cd460116cb644c3d8a2ba
 Description: Renesas kernel meta package for arm64
 
 Package: linux-image-6.18-arm64-renesas
-Version: 6.18.20-4
+Version: 6.18.20-5
 Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
 Depends: linux-image-6.18.20-arm64-renesas
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-image-6.18-arm64-renesas/linux-image-6.18-arm64-renesas_6.18.20-4_all.deb
+Filename: pool/main/l/linux-image-6.18-arm64-renesas/linux-image-6.18-arm64-renesas_6.18.20-5_all.deb
 Size: 740
-SHA256: 1611859143b3c88481e8d47c8f9f40c8767a75f4158135b8c075ef9e49c85d4e
-SHA1: 18cfb9ce23d67e815b6c08356f34a8c1b6cabec5
-MD5sum: 44a5935d634c10af0eb515b63d976e1a
+SHA256: 74dd2442f7a7214fedbe665375aea0a2db8acdf787a95d85cf6741de3b0ba2cd
+SHA1: fb3046b89733c3084fc76f5446ee44a26db3943a
+MD5sum: cd2a466c98608052ef94b4f73d2993b0
 Description: Renesas kernel meta package for arm64
 
 Package: qos-dkms
