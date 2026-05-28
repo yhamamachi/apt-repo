@@ -91,19 +91,19 @@ MD5sum: ef09b95f076f42cdc42c839ce0002ce5
 Description: ARM Trusted Firmware (TF-A) BL31 for Sparrow Hawk
 
 Package: sparrow-hawk-bsp
-Version: 1.0.0-7
+Version: 1.0.0-8
 Architecture: all
 Maintainer: Yuya Hamamachi <yuya.hamamachi.sx@renesas.com>
 Installed-Size: 7
-Depends: linux-image-6.18-arm64-renesas, sparrow-hawk-arm-trusted-firmware, sparrow-hawk-kernel-module-cmemdrv, sparrow-hawk-libcamera, sparrow-hawk-misc-config, sparrow-hawk-mkfit, sparrow-hawk-pcie-fw, sparrow-hawk-udev, sparrow-hawk-u-boot
+Depends: linux-image-6.18-arm64-renesas, sparrow-hawk-arm-trusted-firmware, sparrow-hawk-kernel-module-cmemdrv, sparrow-hawk-libcamera, sparrow-hawk-misc-config, sparrow-hawk-mkfit, sparrow-hawk-pcie-fw, sparrow-hawk-udev, sparrow-hawk-utils, sparrow-hawk-u-boot
 Homepage: https://github.com/ARM-software/arm-trusted-firmware
 Priority: optional
 Section: misc
-Filename: pool/main/s/sparrow-hawk-bsp/sparrow-hawk-bsp_1.0.0-7_all.deb
-Size: 1058
-SHA256: 8682ec7c418bad95873a103441ded977675d9489c72e4282317db4d56eadfb1f
-SHA1: ff722e5eec3df48ae7579727f745075f03beee93
-MD5sum: 6e6760a1902c3140f862098cd589e552
+Filename: pool/main/s/sparrow-hawk-bsp/sparrow-hawk-bsp_1.0.0-8_all.deb
+Size: 1064
+SHA256: ebb18d013241b971b4a595e087e164fe744666c0d424acb041997f33424c5b9f
+SHA1: 189e70db1816d8a00621afbddb277ee7a62988d9
+MD5sum: 754c6729aba5a2e6e8084b9bae3f74ca
 Description: Meta package for Sparrow Hawk
 
 Package: sparrow-hawk-kernel-6.18
